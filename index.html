@@ -1,103 +1,3244 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="mr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ganpati Invitation</title>
+<meta charset="UTF-8">
 
-    <!-- Open Graph Link Preview -->
-    <meta property="og:title" content="Ganpati Invitation">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-    <meta property="og:description"
-        content="🙏 Ganpati Bappa Morya 🙏 Welcome to our Ganpati Invitation">
+<title>गणपती बाप्पा मोरया | गणपती आमंत्रण</title>
 
-    <meta property="og:image"
-        content="https://patilpiyush0824-sketch.github.io/ganpati-invitation/03.jpeg">
+<meta name="description"
+content="श्री गणपती पूजेचे हार्दिक आमंत्रण. गणपती बाप्पा मोरया!">
 
-    <meta property="og:image:alt"
-        content="Ganpati Invitation">
+<meta property="og:title"
+content="गणपती पूजेचे आमंत्रण">
 
-    <meta property="og:type"
-        content="website">
+<meta property="og:description"
+content="🙏 गणपती बाप्पा मोरया 🙏 आपल्या गणपती पूजेसाठी हार्दिक आमंत्रण">
 
-    <meta property="og:url"
-        content="https://patilpiyush0824-sketch.github.io/ganpati-invitation/">
+<meta property="og:image"
+content="https://patilpiyush0824-sketch.github.io/ganpati-invitation/02.png">
 
-    <!-- Twitter / Social Media Preview -->
-    <meta name="twitter:card"
-        content="summary_large_image">
+<meta property="og:image:alt"
+content="गणपती आमंत्रण">
 
-    <meta name="twitter:title"
-        content="Ganpati Invitation">
+<meta property="og:type"
+content="website">
 
-    <meta name="twitter:description"
-        content="🙏 Ganpati Bappa Morya 🙏 Welcome to our Ganpati Invitation">
+<meta property="og:url"
+content="https://patilpiyush0824-sketch.github.io/ganpati-invitation/">
 
-    <meta name="twitter:image"
-        content="https://patilpiyush0824-sketch.github.io/ganpati-invitation/03.jpeg">
+<meta name="twitter:card"
+content="summary_large_image">
+
+<meta name="twitter:title"
+content="गणपती पूजेचे आमंत्रण">
+
+<meta name="twitter:description"
+content="🙏 गणपती बाप्पा मोरया 🙏">
+
+<meta name="twitter:image"
+content="https://patilpiyush0824-sketch.github.io/ganpati-invitation/02.png">
 
 
-    <style>
+<!-- MARATHI FONTS -->
 
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background: #fff8e7;
-        }
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
 
-        .box {
-            padding: 40px 20px;
-        }
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
 
-        h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap"
+rel="stylesheet">
 
-        p {
-            font-size: 20px;
-            margin-top: 10px;
-        }
 
-        /* BIG PHOTO */
-        .photo {
-            width: 700px;
-            max-width: 95%;
-            height: auto;
-            border-radius: 15px;
-            margin-top: 25px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
+<style>
 
-    </style>
+/* =====================================================
+   COLORS
+===================================================== */
+
+:root {
+
+    --saffron: #f47b20;
+    --deep-orange: #d94b16;
+    --gold: #e4a72c;
+    --light-gold: #f7d889;
+    --cream: #fff8e9;
+    --dark-red: #8d211b;
+    --brown: #4b2415;
+    --white: #ffffff;
+
+}
+
+
+/* =====================================================
+   RESET
+===================================================== */
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+
+/* =====================================================
+   BODY
+===================================================== */
+
+body {
+
+    margin: 0;
+
+    font-family:
+        'Noto Sans Devanagari',
+        sans-serif;
+
+    color:
+        var(--brown);
+
+    background:
+
+        radial-gradient(
+            circle at 15% 10%,
+            rgba(228,167,44,.20),
+            transparent 28%
+        ),
+
+        radial-gradient(
+            circle at 90% 25%,
+            rgba(244,123,32,.13),
+            transparent 28%
+        ),
+
+        linear-gradient(
+            180deg,
+            #fffaf0,
+            #fff5df
+        );
+
+    overflow-x:
+        hidden;
+
+}
+
+
+/* BACKGROUND PATTERN */
+
+body::before {
+
+    content: "";
+
+    position: fixed;
+
+    inset: 0;
+
+    pointer-events: none;
+
+    opacity: .055;
+
+    background-image:
+
+        radial-gradient(
+            var(--dark-red) 1px,
+            transparent 1px
+        );
+
+    background-size:
+        25px 25px;
+
+    z-index: -1;
+
+}
+
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+
+nav {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 100;
+
+    display: flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    padding:
+        14px 6%;
+
+    background:
+
+        linear-gradient(
+            180deg,
+            #b97825 0%,
+            #d19a42 45%,
+            #e8c778 100%
+        );
+
+    backdrop-filter:
+        blur(14px);
+
+    border-bottom:
+        1px solid
+        rgba(120,65,20,.22);
+
+    box-shadow:
+        0 5px 18px
+        rgba(75,36,21,.16);
+
+}
+
+
+.logo {
+
+    color:
+        var(--dark-red);
+
+    font-weight:
+        800;
+
+    font-size:
+        16px;
+
+}
+
+
+nav a {
+
+    color:
+        var(--brown);
+
+    text-decoration:
+        none;
+
+    margin-left:
+        20px;
+
+    font-size:
+        14px;
+
+    font-weight:
+        700;
+
+    transition:
+        .3s;
+
+}
+
+
+nav a:hover {
+
+    color:
+        var(--saffron);
+
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero {
+
+    min-height:
+        100vh;
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    align-items:
+        center;
+
+    text-align:
+        center;
+
+    padding:
+        105px 20px 70px;
+
+}
+
+
+.hero-inner {
+
+    width:
+        min(1100px,100%);
+
+}
+
+
+/* =====================================================
+   THREE DECORATIVE BOXES
+===================================================== */
+
+.devi-decoration {
+
+    width:
+        min(950px,100%);
+
+    margin:
+        0 auto 22px;
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    align-items:
+        center;
+
+    gap:
+        18px;
+
+    animation:
+        topBoxesShow 1.2s
+        cubic-bezier(.22,1,.36,1);
+
+}
+
+
+.devi-box {
+
+    position:
+        relative;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    text-align:
+        center;
+
+    font-family:
+        'Tiro Devanagari Marathi',
+        serif;
+
+    color:
+        var(--dark-red);
+
+    background:
+
+        linear-gradient(
+            145deg,
+            #fffdf7,
+            #fff2d4
+        );
+
+    border:
+        2px solid
+        var(--gold);
+
+    box-shadow:
+
+        0 10px 28px
+        rgba(75,36,21,.13),
+
+        inset 0 0 0 3px
+        rgba(255,255,255,.8);
+
+    transition:
+        .35s ease;
+
+}
+
+
+.devi-left {
+
+    min-width:
+        205px;
+
+    min-height:
+        54px;
+
+    padding:
+        10px 20px;
+
+    font-size:
+        clamp(11px,1.5vw,16px);
+
+    font-weight:
+        700;
+
+    border-radius:
+        35px 12px 35px 12px;
+
+    transform:
+        rotate(-2deg);
+
+}
+
+
+.devi-center {
+
+    min-width:
+        245px;
+
+    min-height:
+        68px;
+
+    padding:
+        13px 28px;
+
+    font-size:
+        clamp(15px,2vw,20px);
+
+    font-weight:
+        800;
+
+    border-radius:
+        50px 15px 50px 15px;
+
+    border-width:
+        3px;
+
+    box-shadow:
+
+        0 12px 32px
+        rgba(141,33,27,.16),
+
+        inset 0 0 0 4px
+        rgba(255,255,255,.85);
+
+    z-index:
+        2;
+
+}
+
+
+.devi-right {
+
+    min-width:
+        205px;
+
+    min-height:
+        54px;
+
+    padding:
+        10px 20px;
+
+    font-size:
+        clamp(11px,1.5vw,16px);
+
+    font-weight:
+        700;
+
+    border-radius:
+        12px 35px 12px 35px;
+
+    transform:
+        rotate(2deg);
+
+}
+
+
+.devi-box::before {
+
+    content:
+        "✦";
+
+    position:
+        absolute;
+
+    top:
+        -12px;
+
+    left:
+        50%;
+
+    transform:
+        translateX(-50%);
+
+    width:
+        25px;
+
+    height:
+        25px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    border-radius:
+        50%;
+
+    background:
+        var(--gold);
+
+    color:
+        white;
+
+    font-size:
+        12px;
+
+    box-shadow:
+        0 4px 12px
+        rgba(228,167,44,.35);
+
+}
+
+
+.devi-left::after,
+.devi-right::after {
+
+    content:
+        "❈";
+
+    position:
+        absolute;
+
+    bottom:
+        -12px;
+
+    color:
+        var(--saffron);
+
+    font-size:
+        18px;
+
+}
+
+
+.devi-left::after {
+
+    right:
+        18px;
+
+}
+
+
+.devi-right::after {
+
+    left:
+        18px;
+
+}
+
+
+.devi-box:hover {
+
+    transform:
+        translateY(-5px)
+        rotate(0deg)
+        scale(1.03);
+
+    box-shadow:
+        0 18px 38px
+        rgba(75,36,21,.18);
+
+}
+
+
+@keyframes topBoxesShow {
+
+    from {
+
+        opacity:
+            0;
+
+        transform:
+            translateY(-30px)
+            scale(.9);
+
+    }
+
+    to {
+
+        opacity:
+            1;
+
+        transform:
+            translateY(0)
+            scale(1);
+
+    }
+
+}
+
+
+/* =====================================================
+   MAIN TITLE
+===================================================== */
+
+h1 {
+
+    font-family:
+        'Tiro Devanagari Marathi',
+        serif;
+
+    color:
+        var(--dark-red);
+
+    font-size:
+        clamp(48px,8vw,90px);
+
+    line-height:
+        1.15;
+
+    white-space:
+        nowrap;
+
+    margin:
+        22px 0 35px;
+
+    text-shadow:
+        0 5px 20px
+        rgba(141,33,27,.12);
+
+    animation:
+        titleAnimation 1.1s
+        cubic-bezier(.22,1,.36,1);
+
+}
+
+
+@keyframes titleAnimation {
+
+    from {
+
+        opacity:
+            0;
+
+        transform:
+            translateY(-35px)
+            scale(.90);
+
+    }
+
+    to {
+
+        opacity:
+            1;
+
+        transform:
+            translateY(0)
+            scale(1);
+
+    }
+
+}
+
+
+/* =====================================================
+   INVITATION BOX
+===================================================== */
+
+.invitation-box {
+
+    position:
+        relative;
+
+    width:
+        min(1000px,100%);
+
+    margin:
+        0 auto 42px;
+
+    padding:
+        60px 55px 48px;
+
+    background:
+
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.98),
+            rgba(255,248,233,.97)
+        );
+
+    border:
+        2px solid
+        rgba(228,167,44,.75);
+
+    border-radius:
+        30px;
+
+    box-shadow:
+
+        0 25px 65px
+        rgba(75,36,21,.14),
+
+        inset 0 0 0 5px
+        rgba(255,255,255,.7);
+
+    animation:
+        boxAnimation 1.3s
+        cubic-bezier(.22,1,.36,1);
+
+}
+
+
+.invitation-box::before {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    top:
+        -11px;
+
+    left:
+        8%;
+
+    right:
+        8%;
+
+    height:
+        22px;
+
+    border-radius:
+        50%;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            transparent,
+            var(--gold),
+            var(--saffron),
+            var(--gold),
+            transparent
+        );
+
+    box-shadow:
+        0 0 18px
+        rgba(228,167,44,.45);
+
+    animation:
+        goldenGlow 2.5s
+        ease-in-out
+        infinite;
+
+}
+
+
+@keyframes goldenGlow {
+
+    0%,100% {
+
+        opacity:
+            .65;
+
+        transform:
+            scaleX(.92);
+
+    }
+
+    50% {
+
+        opacity:
+            1;
+
+        transform:
+            scaleX(1);
+
+    }
+
+}
+
+
+@keyframes boxAnimation {
+
+    from {
+
+        opacity:
+            0;
+
+        transform:
+            translateY(60px)
+            scale(.94);
+
+    }
+
+    to {
+
+        opacity:
+            1;
+
+        transform:
+            translateY(0)
+            scale(1);
+
+    }
+
+}
+
+
+/* =====================================================
+   INNER INVITATION DESIGN
+===================================================== */
+
+.invitation-content {
+
+    position:
+        relative;
+
+    padding:
+        30px 35px;
+
+    border:
+        1px dashed
+        rgba(141,33,27,.38);
+
+    border-radius:
+        22px;
+
+    background:
+        rgba(255,255,255,.35);
+
+}
+
+
+.invitation-content::before {
+
+    content:
+        "🌺";
+
+    position:
+        absolute;
+
+    top:
+        -18px;
+
+    left:
+        -15px;
+
+    font-size:
+        32px;
+
+}
+
+
+.invitation-content::after {
+
+    content:
+        "🌺";
+
+    position:
+        absolute;
+
+    bottom:
+        -18px;
+
+    right:
+        -15px;
+
+    font-size:
+        32px;
+
+}
+
+
+.invitation-text {
+
+    color:
+        var(--brown);
+
+    font-size:
+        clamp(18px,2.2vw,23px);
+
+    font-weight:
+        500;
+
+    line-height:
+        2.05;
+
+    text-align:
+        center;
+
+    animation:
+        textAnimation 1.5s
+        ease both;
+
+    animation-delay:
+        .3s;
+
+}
+
+
+@keyframes textAnimation {
+
+    from {
+
+        opacity:
+            0;
+
+        transform:
+            translateY(25px);
+
+    }
+
+    to {
+
+        opacity:
+            1;
+
+        transform:
+            translateY(0);
+
+    }
+
+}
+
+
+.highlight {
+
+    color:
+        var(--dark-red);
+
+    font-weight:
+        800;
+
+}
+
+
+/* =====================================================
+   HERO IMAGE
+===================================================== */
+
+.hero-photo {
+
+    width:
+        360px;
+
+    height:
+        360px;
+
+    object-fit:
+        cover;
+
+    object-position:
+        center 35%;
+
+    border:
+        6px solid
+        rgba(228,167,44,.9);
+
+    padding:
+        6px;
+
+    background:
+        white;
+
+    border-radius:
+        50%;
+
+    box-shadow:
+        0 20px 55px
+        rgba(75,36,21,.22);
+
+}
+
+
+.cta {
+
+    display:
+        inline-block;
+
+    margin-top:
+        28px;
+
+    padding:
+        14px 27px;
+
+    border-radius:
+        999px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            var(--saffron),
+            var(--dark-red)
+        );
+
+    color:
+        white;
+
+    text-decoration:
+        none;
+
+    font-weight:
+        800;
+
+    box-shadow:
+        0 12px 28px
+        rgba(141,33,27,.23);
+
+}
+
+
+/* =====================================================
+   SECTIONS
+===================================================== */
+
+section {
+
+    position:
+        relative;
+
+    padding:
+        85px 6%;
+
+}
+
+
+.section-title {
+
+    text-align:
+        center;
+
+    margin-bottom:
+        42px;
+
+}
+
+
+.section-title span {
+
+    color:
+        var(--saffron);
+
+    font-size:
+        14px;
+
+    font-weight:
+        800;
+
+}
+
+
+.section-title h2 {
+
+    font-family:
+        'Tiro Devanagari Marathi',
+        serif;
+
+    color:
+        var(--dark-red);
+
+    font-size:
+        clamp(36px,6vw,62px);
+
+    margin:
+        8px 0 12px;
+
+}
+
+
+.section-title p {
+
+    line-height:
+        1.8;
+
+    font-size:
+        16px;
+
+}
+
+
+/* =====================================================
+   CARDS
+===================================================== */
+
+.card-grid {
+
+    width:
+        min(1100px,100%);
+
+    margin:
+        auto;
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:
+        20px;
+
+}
+
+
+.card {
+
+    padding:
+        30px 20px;
+
+    border-radius:
+        24px;
+
+    background:
+        rgba(255,255,255,.90);
+
+    border:
+        1px solid
+        rgba(228,167,44,.55);
+
+    box-shadow:
+        0 15px 35px
+        rgba(75,36,21,.08);
+
+    text-align:
+        center;
+
+}
+
+
+.icon {
+
+    font-size:
+        38px;
+
+}
+
+
+.card h3 {
+
+    color:
+        var(--dark-red);
+
+    margin:
+        12px 0 7px;
+
+}
+
+
+.card p {
+
+    margin:
+        0;
+
+    line-height:
+        1.8;
+
+    font-size:
+        15px;
+
+}
+
+
+/* =====================================================
+   COUNTDOWN
+===================================================== */
+
+.countdown {
+
+    width:
+        min(900px,100%);
+
+    margin:
+        auto;
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(4,1fr);
+
+    gap:
+        12px;
+
+}
+
+
+.time {
+
+    background:
+
+        linear-gradient(
+            145deg,
+            var(--dark-red),
+            #a92b20
+        );
+
+    color:
+        white;
+
+    border-radius:
+        20px;
+
+    padding:
+        22px 8px;
+
+    text-align:
+        center;
+
+    box-shadow:
+        0 15px 30px
+        rgba(143,36,28,.18);
+
+}
+
+
+.time b {
+
+    display:
+        block;
+
+    font-size:
+        clamp(30px,5vw,48px);
+
+}
+
+
+.time span {
+
+    font-size:
+        13px;
+
+}
+
+
+/* =====================================================
+   COUNTDOWN IMAGE
+===================================================== */
+
+.countdown-image {
+
+    width:
+        min(300px,82vw);
+
+    height:
+        170px;
+
+    display:
+        block;
+
+    margin:
+        30px auto 15px;
+
+    object-fit:
+        cover;
+
+    object-position:
+        center 20%;
+
+    padding:
+        0;
+
+    background:
+        #ffffff;
+
+    border:
+        3px solid
+        #ffffff;
+
+    outline:
+        2px solid
+        var(--gold);
+
+    border-radius:
+        20px;
+
+    box-shadow:
+        0 10px 25px
+        rgba(75,36,21,.16);
+
+    transform:
+        scale(1.08);
+
+}
+
+
+/* =====================================================
+   PROGRAM
+===================================================== */
+
+.timeline {
+
+    width:
+        min(800px,100%);
+
+    margin:
+        auto;
+
+}
+
+
+.event {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        120px 1fr;
+
+    gap:
+        20px;
+
+    padding:
+        20px 0;
+
+    border-bottom:
+        1px dashed
+        rgba(143,36,28,.25);
+
+    line-height:
+        1.8;
+
+}
+
+
+.event time {
+
+    font-weight:
+        800;
+
+    color:
+        var(--saffron);
+
+}
+
+
+/* =====================================================
+   LOCATION
+===================================================== */
+
+.location {
+
+    width:
+        min(1050px,100%);
+
+    margin:
+        auto;
+
+    display:
+        grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap:
+        28px;
+
+}
+
+
+.address-card {
+
+    min-height:
+        390px;
+
+    padding:
+        40px 30px;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    text-align:
+        center;
+
+    border-radius:
+        28px;
+
+    background:
+
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #fff8e9
+        );
+
+    border:
+        2px solid
+        rgba(228,167,44,.55);
+
+    box-shadow:
+        0 18px 45px
+        rgba(75,36,21,.10);
+
+}
+
+
+.address-card .icon {
+
+    font-size:
+        52px;
+
+    margin-bottom:
+        8px;
+
+}
+
+
+.address-card h3 {
+
+    color:
+        var(--dark-red);
+
+    font-family:
+        'Tiro Devanagari Marathi',
+        serif;
+
+    font-size:
+        30px;
+
+    margin-bottom:
+        18px;
+
+}
+
+
+.address-text {
+
+    font-size:
+        clamp(18px,2vw,22px);
+
+    line-height:
+        2;
+
+    font-weight:
+        600;
+
+    color:
+        var(--brown);
+
+}
+
+
+/* MAP */
+
+.mapbox {
+
+    min-height:
+        390px;
+
+    border-radius:
+        28px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #f7d99c,
+            #fffdf8
+        );
+
+    border:
+        2px solid
+        rgba(228,167,44,.50);
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    text-align:
+        center;
+
+    padding:
+        30px;
+
+    box-shadow:
+        0 18px 45px
+        rgba(75,36,21,.08);
+
+}
+
+
+.mapbox-icon {
+
+    font-size:
+        70px;
+
+}
+
+
+.mapbox h3 {
+
+    color:
+        var(--dark-red);
+
+    font-family:
+        'Tiro Devanagari Marathi',
+        serif;
+
+    font-size:
+        28px;
+
+    margin:
+        12px 0;
+
+}
+
+
+.mapbox p {
+
+    font-size:
+        16px;
+
+    line-height:
+        1.8;
+
+}
+
+
+.map-btn {
+
+    display:
+        inline-block;
+
+    margin-top:
+        18px;
+
+    padding:
+        13px 21px;
+
+    border-radius:
+        13px;
+
+    background:
+        var(--dark-red);
+
+    color:
+        white;
+
+    text-decoration:
+        none;
+
+    font-weight:
+        700;
+
+}
+
+
+/* =====================================================
+   FINAL MESSAGE
+===================================================== */
+
+.thankyou {
+
+    width:
+        min(850px,100%);
+
+    margin:
+        auto;
+
+    padding:
+        45px 25px;
+
+    text-align:
+        center;
+
+    border-radius:
+        28px;
+
+    background:
+        white;
+
+    border:
+        1px solid
+        rgba(228,167,44,.5);
+
+    box-shadow:
+        0 15px 40px
+        rgba(75,36,21,.10);
+
+}
+
+
+.thankyou h2 {
+
+    font-family:
+        'Tiro Devanagari Marathi',
+        serif;
+
+    color:
+        var(--dark-red);
+
+    font-size:
+        clamp(32px,6vw,55px);
+
+    margin:
+        15px 0;
+
+}
+
+
+.thankyou p {
+
+    font-size:
+        18px;
+
+    line-height:
+        2;
+
+}
+
+
+/* =====================================================
+   INVITER BOX
+===================================================== */
+
+.inviter-box {
+
+    width:
+        min(620px,92%);
+
+    margin:
+        auto;
+
+    padding:
+        38px 25px;
+
+    text-align:
+        center;
+
+    position:
+        relative;
+
+    overflow:
+        hidden;
+
+    background:
+
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #fffaf0
+        );
+
+    border:
+        2px solid
+        rgba(228,167,44,.65);
+
+    border-radius:
+        28px;
+
+    box-shadow:
+
+        0 20px 50px
+        rgba(75,36,21,.12),
+
+        inset 0 0 0 4px
+        rgba(255,255,255,.8);
+
+}
+
+
+/* GOLD TOP LINE */
+
+.inviter-box::before {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    top:
+        0;
+
+    left:
+        12%;
+
+    right:
+        12%;
+
+    height:
+        5px;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            transparent,
+            var(--gold),
+            var(--saffron),
+            var(--gold),
+            transparent
+        );
+
+    border-radius:
+        0 0 20px 20px;
+
+}
+
+
+/* FLOWER */
+
+.inviter-icon {
+
+    font-size:
+        34px;
+
+    margin-bottom:
+        5px;
+
+    animation:
+        inviterFloat 2.5s
+        ease-in-out
+        infinite;
+
+}
+
+
+/* TITLE */
+
+.inviter-title {
+
+    font-family:
+        'Tiro Devanagari Marathi',
+        serif;
+
+    color:
+        var(--saffron);
+
+    font-size:
+        18px;
+
+    font-weight:
+        800;
+
+    letter-spacing:
+        1px;
+
+}
+
+
+/* NAME */
+
+.inviter-name {
+
+    margin-top:
+        8px;
+
+    font-family:
+        'Tiro Devanagari Marathi',
+        serif;
+
+    color:
+        var(--dark-red);
+
+    font-size:
+        clamp(25px,5vw,36px);
+
+    font-weight:
+        800;
+
+    text-shadow:
+        0 3px 12px
+        rgba(141,33,27,.10);
+
+}
+
+
+/* DIVIDER */
+
+.inviter-line {
+
+    width:
+        110px;
+
+    height:
+        2px;
+
+    margin:
+        16px auto;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            transparent,
+            var(--gold),
+            transparent
+        );
+
+}
+
+
+/* CONTACT */
+
+.inviter-contact {
+
+    margin-top:
+        8px;
+
+    color:
+        var(--brown);
+
+    font-size:
+        clamp(15px,2.5vw,18px);
+
+    font-weight:
+        600;
+
+    line-height:
+        1.7;
+
+}
+
+
+/* EMAIL */
+
+.inviter-contact.email {
+
+    color:
+        var(--dark-red);
+
+    font-size:
+        clamp(13px,2.3vw,17px);
+
+}
+
+
+/* INVITER ANIMATION */
+
+@keyframes inviterFloat {
+
+    0%,100% {
+
+        transform:
+            translateY(0);
+
+    }
+
+    50% {
+
+        transform:
+            translateY(-5px);
+
+    }
+
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer {
+
+    text-align:
+        center;
+
+    padding:
+        50px 20px 25px;
+
+    background:
+        var(--brown);
+
+    color:
+        white;
+
+}
+
+
+footer strong {
+
+    font-family:
+        'Tiro Devanagari Marathi',
+        serif;
+
+    font-size:
+        34px;
+
+}
+
+
+/* =====================================================
+   CREATED BY
+===================================================== */
+
+.creator {
+    margin-top: 18px;
+    text-align: right;
+    padding-right: 12px;
+
+    color: rgba(255,255,255,.75);
+
+    font-family:
+        'Noto Sans Devanagari',
+        sans-serif;
+
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .4px;
+}
+
+/* =====================================================
+   SCROLL REVEAL
+===================================================== */
+
+.reveal {
+
+    opacity:
+        0;
+
+    transform:
+        translateY(30px);
+
+    transition:
+        all .8s ease;
+
+}
+
+
+.reveal.show {
+
+    opacity:
+        1;
+
+    transform:
+        none;
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:750px) {
+
+    nav {
+
+        padding:
+            12px 15px;
+
+    }
+
+
+    nav .links {
+
+        display:
+            none;
+
+    }
+
+
+    .hero {
+
+        padding:
+            95px 10px 55px;
+
+    }
+
+
+    .devi-decoration {
+
+        width:
+            100%;
+
+        gap:
+            5px;
+
+        align-items:
+            center;
+
+    }
+
+
+    .devi-left,
+    .devi-right {
+
+        min-width:
+            0;
+
+        width:
+            30%;
+
+        min-height:
+            47px;
+
+        padding:
+            7px 4px;
+
+        font-size:
+            9px;
+
+        line-height:
+            1.3;
+
+    }
+
+
+    .devi-center {
+
+        min-width:
+            0;
+
+        width:
+            40%;
+
+        min-height:
+            58px;
+
+        padding:
+            8px 4px;
+
+        font-size:
+            11px;
+
+        border-width:
+            2px;
+
+    }
+
+
+    .devi-box::before {
+
+        width:
+            19px;
+
+        height:
+            19px;
+
+        font-size:
+            9px;
+
+        top:
+            -9px;
+
+    }
+
+
+    .devi-left::after,
+    .devi-right::after {
+
+        font-size:
+            13px;
+
+        bottom:
+            -10px;
+
+    }
+
+
+    h1 {
+
+        font-size:
+            42px;
+
+        white-space:
+            nowrap;
+
+        margin:
+            20px 0 30px;
+
+    }
+
+
+    .invitation-box {
+
+        padding:
+            52px 10px 30px;
+
+        border-radius:
+            23px;
+
+    }
+
+
+    .invitation-content {
+
+        padding:
+            23px 12px;
+
+        border-radius:
+            18px;
+
+    }
+
+
+    .invitation-text {
+
+        font-size:
+            16px;
+
+        line-height:
+            1.9;
+
+    }
+
+
+    .hero-photo {
+
+        width:
+            75vw;
+
+        height:
+            75vw;
+
+        max-width:
+            330px;
+
+        max-height:
+            330px;
+
+    }
+
+
+    section {
+
+        padding:
+            60px 10px;
+
+    }
+
+
+    .card-grid {
+
+        grid-template-columns:
+            repeat(3,1fr);
+
+        gap:
+            7px;
+
+    }
+
+
+    .card {
+
+        padding:
+            16px 5px;
+
+        border-radius:
+            15px;
+
+    }
+
+
+    .card .icon {
+
+        font-size:
+            25px;
+
+    }
+
+
+    .card h3 {
+
+        font-size:
+            12px;
+
+        line-height:
+            1.4;
+
+    }
+
+
+    .card p {
+
+        font-size:
+            10px;
+
+    }
+
+
+    .countdown {
+
+        grid-template-columns:
+            repeat(2,1fr);
+
+        gap:
+            8px;
+
+    }
+
+
+    .time {
+
+        padding:
+            16px 5px;
+
+        border-radius:
+            15px;
+
+    }
+
+
+    .time b {
+
+        font-size:
+            32px;
+
+    }
+
+
+    .countdown-image {
+
+        width:
+            310px;
+
+        max-width:
+            82vw;
+
+        height:
+            190px;
+
+        margin:
+            30px auto 18px;
+
+        padding:
+            0;
+
+        border-radius:
+            22px;
+
+        object-fit:
+            cover;
+
+        object-position:
+            center 20%;
+
+    }
+
+
+    .event {
+
+        grid-template-columns:
+            85px 1fr;
+
+        gap:
+            10px;
+
+        font-size:
+            14px;
+
+    }
+
+
+    .location {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .address-card,
+    .mapbox {
+
+        min-height:
+            350px;
+
+    }
+
+
+    .address-card {
+
+        padding:
+            35px 20px;
+
+    }
+
+
+    .address-card h3 {
+
+        font-size:
+            27px;
+
+    }
+
+
+    .address-text {
+
+        font-size:
+            18px;
+
+        line-height:
+            1.9;
+
+    }
+
+
+    .mapbox-icon {
+
+        font-size:
+            60px;
+
+    }
+
+
+    .mapbox h3 {
+
+        font-size:
+            25px;
+
+    }
+
+
+    .thankyou {
+
+        padding:
+            30px 15px;
+
+    }
+
+
+    .thankyou h2 {
+
+        font-size:
+            34px;
+
+    }
+
+
+    .thankyou p {
+
+        font-size:
+            15px;
+
+    }
+
+
+    /* INVITER MOBILE */
+
+    .inviter-box {
+
+        width:
+            92%;
+
+        padding:
+            32px 15px;
+
+        border-radius:
+            23px;
+
+    }
+
+
+    .inviter-name {
+
+        font-size:
+            26px;
+
+    }
+
+
+    .inviter-contact {
+
+        font-size:
+            15px;
+
+    }
+
+
+    footer strong {
+
+        font-size:
+            27px;
+
+    }
+
+
+    /* CREATED BY MOBILE */
+
+    .created-by {
+        text-align: right;
+
+        padding-right:
+            4%;
+
+        font-size:
+            10px;
+
+    }
+
+}
+
+
+/* =====================================================
+   VERY SMALL MOBILE
+===================================================== */
+
+@media(max-width:380px) {
+
+    .devi-decoration {
+
+        gap:
+            3px;
+
+    }
+
+
+    .devi-left,
+    .devi-right {
+
+        font-size:
+            8px;
+
+        padding:
+            6px 2px;
+
+    }
+
+
+    .devi-center {
+
+        font-size:
+            10px;
+
+    }
+
+
+    h1 {
+
+        font-size:
+            37px;
+
+    }
+
+
+    .invitation-text {
+
+        font-size:
+            15px;
+
+        line-height:
+            1.85;
+
+    }
+
+
+    .address-text {
+
+        font-size:
+            16px;
+
+    }
+
+
+    .card-grid {
+
+        gap:
+            4px;
+
+    }
+
+
+    .card {
+
+        padding:
+            12px 3px;
+
+    }
+
+
+    .card .icon {
+
+        font-size:
+            21px;
+
+    }
+
+
+    .card h3 {
+
+        font-size:
+            10px;
+
+    }
+
+
+    .card p {
+
+        font-size:
+            9px;
+
+    }
+
+
+    .countdown-image {
+
+        width:
+            280px;
+
+        max-width:
+            85vw;
+
+        height:
+            165px;
+
+        padding:
+            0;
+
+        object-fit:
+            cover;
+
+        object-position:
+            center 20%;
+
+    }
+
+
+    .inviter-name {
+
+        font-size:
+            23px;
+
+    }
+
+
+    .inviter-contact {
+
+        font-size:
+            13px;
+
+    }
+
+
+    .created-by {
+
+        font-size:
+            9px;
+
+        padding-right:
+            3%;
+
+    }
+
+}
+
+</style>
 
 </head>
 
 
 <body>
 
-    <div class="box">
 
-        <h1>
-            🙏 Ganpati Bappa Morya 🙏
-        </h1>
+<!-- NAVBAR -->
 
-        <p>
-            Welcome to our Ganpati Invitation
-        </p>
+<nav>
 
-        <!-- BIG GANPATI IMAGE -->
-        <img
-            src="./03.jpeg"
-            alt="Ganpati Invitation"
-            class="photo">
+    <div class="logo">
+        🪔 गणपती आमंत्रण
+    </div>
+
+    <div class="links">
+
+        <a href="#details">
+            तपशील
+        </a>
+
+        <a href="#puja">
+            पूजा
+        </a>
+
+        <a href="#location">
+            पत्ता
+        </a>
 
     </div>
+
+</nav>
+
+
+<!-- HERO -->
+
+<header class="hero">
+
+<div class="hero-inner">
+
+
+    <div class="devi-decoration">
+
+
+        <div class="devi-box devi-left">
+
+            🌺 श्री सतुआई देवी प्रसन्न!!
+
+        </div>
+
+
+        <div class="devi-box devi-center">
+
+            ॐ श्री गणेशाय नमः
+
+        </div>
+
+
+        <div class="devi-box devi-right">
+
+            🌺 श्री कुर्लाई देवी प्रसन्न!!
+
+        </div>
+
+
+    </div>
+
+
+    <h1>
+        गणपती आमंत्रण
+    </h1>
+
+
+    <div class="invitation-box">
+
+        <div class="invitation-content">
+
+            <p class="invitation-text">
+
+                आपणास कळविण्यात आनंद होत आहे की,
+                सालाबादप्रमाणे याही वर्षी आमच्या घरी
+                <span class="highlight">
+                    श्री गणेश चतुर्थी
+                </span>
+                निमित्त आपल्या लाडक्या गणरायाचे
+                आगमन होत आहे.
+
+                <br><br>
+
+                <span class="highlight">
+                    सोमवार, दि. १४ सप्टेंबर ते बुधवार,
+                    दि. १६ सप्टेंबर २०२६
+                </span>
+                या कालावधीत श्री गणेशाची स्थापना व
+                पूजन करण्यात येणार आहे.
+
+                <br><br>
+
+                तसेच
+                <span class="highlight">
+                    सत्यनारायण पूजेचे
+                </span>
+                आयोजन करण्यात आले आहे.
+
+                <br><br>
+
+                तरी आपण
+                <span class="highlight">
+                    सहकुटुंब सहपरिवार
+                </span>
+                उपस्थित राहून श्री गणरायाचे दर्शन व
+                सत्यनारायण प्रसादाचा लाभ घ्यावा,
+                ही नम्र विनंती.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <img
+        class="hero-photo"
+        src="./01.jpeg"
+        alt="गणपती बाप्पा">
+
+
+    <br>
+
+
+    <a
+        class="cta"
+        href="#details">
+
+        आमंत्रण पहा ↓
+
+    </a>
+
+
+</div>
+
+</header>
+
+
+<!-- DETAILS -->
+
+<section
+id="details"
+class="reveal">
+
+
+<div class="section-title">
+
+    <span>
+        आपले हार्दिक स्वागत
+    </span>
+
+    <h2>
+        एक मंगलमय दिवस
+    </h2>
+
+    <p>
+        गणपती पूजा,
+        आरती आणि महाप्रसादासाठी
+        आवर्जून उपस्थित राहा.
+    </p>
+
+</div>
+
+
+<div class="card-grid">
+
+
+    <div class="card">
+
+        <div class="icon">
+            📅
+        </div>
+
+        <h3>
+            १४ सप्टेंबर २०२६
+        </h3>
+
+        <p>
+            सोमवार
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <div class="icon">
+            ⏰
+        </div>
+
+        <h3>
+            सकाळी 09:30
+        </h3>
+
+        <p>
+            गणपती पूजा
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <div class="icon">
+            📍
+        </div>
+
+        <h3>
+            ठिकाण
+        </h3>
+
+        <p>
+            रा. बहाडोली
+        </p>
+
+    </div>
+
+
+</div>
+
+</section>
+
+
+<!-- COUNTDOWN -->
+
+<section class="reveal">
+
+
+<div class="section-title">
+
+    <h2>
+        बाप्पांच्या आगमनाला किती वेळ?
+    </h2>
+
+</div>
+
+
+<img
+    class="countdown-image"
+    src="./03.jpeg"
+    alt="गणपती बाप्पा">
+
+
+<div class="countdown">
+
+
+    <div class="time">
+
+        <b id="days">
+            --
+        </b>
+
+        <span>
+            दिवस
+        </span>
+
+    </div>
+
+
+    <div class="time">
+
+        <b id="hours">
+            --
+        </b>
+
+        <span>
+            तास
+        </span>
+
+    </div>
+
+
+    <div class="time">
+
+        <b id="minutes">
+            --
+        </b>
+
+        <span>
+            मिनिटे
+        </span>
+
+    </div>
+
+
+    <div class="time">
+
+        <b id="seconds">
+            --
+        </b>
+
+        <span>
+            सेकंद
+        </span>
+
+    </div>
+
+
+</div>
+
+</section>
+
+
+<!-- PUJA -->
+
+<section
+id="puja"
+class="reveal">
+
+
+<div class="section-title">
+
+    <span>
+        कार्यक्रम
+    </span>
+
+    <h2>
+        गणपती व सत्यनारायण पूजा
+    </h2>
+
+    <p>
+        भक्ती, आनंद आणि प्रसादाने
+        भरलेला मंगलमय दिवस.
+    </p>
+
+</div>
+
+
+<div class="timeline">
+
+    <div class="event">
+
+        <time>
+            सकाळी : १०:००
+        </time>
+
+        <div>
+
+            <strong>
+                🪔 सत्यनारायण पूजा
+            </strong>
+
+            <br>
+
+            सत्यनारायण महापूजेचे
+            आयोजन करण्यात आले आहे.
+
+        </div>
+
+    </div>
+
+
+</div>
+
+</section>
+
+
+<!-- LOCATION -->
+
+<section
+id="location"
+class="reveal">
+
+
+<div class="section-title">
+
+    <span>
+        आवर्जून या
+    </span>
+
+    <h2>
+        कार्यक्रमाचे ठिकाण
+    </h2>
+
+</div>
+
+
+<div class="location">
+
+
+    <div class="address-card">
+
+        <div class="icon">
+            📍
+        </div>
+
+        <h3>
+            कार्यक्रमाचा पत्ता
+        </h3>
+
+        <div class="address-text">
+
+            रा. बहाडोली<br>
+
+            तालुका पालघर<br>
+
+            जिल्हा पालघर<br>
+
+            पोस्ट दहिसर तर्फे मनोर<br>
+
+            महाराष्ट्र - ४०११०२
+
+        </div>
+
+    </div>
+
+
+    <div class="mapbox">
+
+        <div>
+
+            <div class="mapbox-icon">
+                🗺️
+            </div>
+
+            <h3>
+                नकाशावर ठिकाण
+            </h3>
+
+            <p>
+                कार्यक्रमाचे ठिकाण
+                Google Maps वर पहा.
+            </p>
+
+            <a
+                class="map-btn"
+                href="https://maps.app.goo.gl/AXmVF8Qs8Eq628uA9"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                📍 नकाशावर ठिकाण पहा →
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+</section>
+
+
+<!-- FINAL MESSAGE -->
+
+<section class="reveal">
+
+
+<div class="thankyou">
+
+    <div style="font-size:55px;">
+        🙏
+    </div>
+
+    <h2>
+
+        आपली उपस्थिती हीच
+        आमच्यासाठी आनंदाची गोष्ट!
+
+    </h2>
+
+    <p>
+
+        श्री गणरायांच्या कृपेने
+        हा मंगलमय सोहळा
+        आपल्या उपस्थितीने
+        अधिक सुंदर होईल.
+
+        <br><br>
+
+        आपण सहकुटुंब
+        आवर्जून उपस्थित राहावे,
+        ही नम्र विनंती.
+
+    </p>
+
+    <div style="font-size:30px;">
+
+        🌺 गणपती बाप्पा मोरया! 🌺
+
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     INVITER / NIMANTRAK
+===================================================== -->
+
+<section class="reveal">
+
+    <div class="inviter-box">
+
+        <div class="inviter-icon">
+            🌺
+        </div>
+
+        <div class="inviter-title">
+            निमंत्रक
+        </div>
+
+        <div class="inviter-name">
+            प्रमोद पाटील व परिवार
+        </div>
+
+        <div class="inviter-line"></div>
+
+        <div class="inviter-contact">
+            📞 9260080183 / 9130278182
+        </div>
+
+        <div class="inviter-contact email">
+            ✉️ patilpiyush0824@gmail.com
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <strong>
+        🙏 गणपती बाप्पा मोरया 🙏
+    </strong>
+
+    <p>
+
+        श्री गणरायांचा आशीर्वाद
+        आपल्या व आपल्या परिवारावर
+        सदैव राहो.
+
+    </p>
+
+    <!-- CREATED BY -->
+
+    <div class="created-by">
+        Created by Piyush Patil
+    </div>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+
+/* COUNTDOWN */
+
+const ganpatiDate =
+    new Date(
+        "2026-09-14T10:00:00+05:30"
+    ).getTime();
+
+
+function updateCountdown() {
+
+    const now =
+        new Date().getTime();
+
+    const difference =
+        ganpatiDate - now;
+
+
+    if (difference <= 0) {
+
+        document.getElementById("days").textContent =
+            "०";
+
+        document.getElementById("hours").textContent =
+            "०";
+
+        document.getElementById("minutes").textContent =
+            "०";
+
+        document.getElementById("seconds").textContent =
+            "०";
+
+        return;
+
+    }
+
+
+    const days =
+        Math.floor(
+            difference /
+            (1000 * 60 * 60 * 24)
+        );
+
+
+    const hours =
+        Math.floor(
+            (difference /
+            (1000 * 60 * 60))
+            % 24
+        );
+
+
+    const minutes =
+        Math.floor(
+            (difference /
+            (1000 * 60))
+            % 60
+        );
+
+
+    const seconds =
+        Math.floor(
+            (difference / 1000)
+            % 60
+        );
+
+
+    document.getElementById("days").textContent =
+        days.toLocaleString("mr-IN");
+
+
+    document.getElementById("hours").textContent =
+        hours.toLocaleString("mr-IN");
+
+
+    document.getElementById("minutes").textContent =
+        minutes.toLocaleString("mr-IN");
+
+
+    document.getElementById("seconds").textContent =
+        seconds.toLocaleString("mr-IN");
+
+}
+
+
+updateCountdown();
+
+
+setInterval(
+    updateCountdown,
+    1000
+);
+
+
+/* SCROLL ANIMATION */
+
+const observer =
+    new IntersectionObserver(
+
+        entries => {
+
+            entries.forEach(
+                entry => {
+
+                    if (
+                        entry.isIntersecting
+                    ) {
+
+                        entry.target
+                            .classList
+                            .add("show");
+
+                    }
+
+                }
+            );
+
+        },
+
+        {
+            threshold:
+                0.12
+        }
+
+    );
+
+
+document
+    .querySelectorAll(".reveal")
+    .forEach(
+        element => {
+
+            observer.observe(element);
+
+        }
+    );
+
+
+</script>
+
 
 </body>
 
