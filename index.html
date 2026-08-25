@@ -8,6 +8,8 @@
 <meta name="viewport"
 content="width=device-width, initial-scale=1.0">
 
+<meta name="color-scheme" content="light">
+
 <title>गणपती बाप्पा मोरया | गणपती आमंत्रण</title>
 <meta property="og:title"
 content="गणपती पूजेचे आमंत्रण">
@@ -61,6 +63,25 @@ rel="stylesheet">
 
 
 <style>
+
+/* FORCE LIGHT THEME - PREVENT BROWSER DARK MODE */
+html {
+    color-scheme: light !important;
+    background: #fffaf0 !important;
+}
+
+body {
+    background-color: #fffaf0 !important;
+    color: var(--brown) !important;
+}
+
+/* Keep all page sections light even when device/browser uses Dark Mode */
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background-color: #fffaf0 !important;
+        color: var(--brown) !important;
+    }
+}
 
 /* =====================================================
    COLORS
